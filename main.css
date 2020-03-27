@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container-fluid {
+    background-color: rgba(206, 206, 206, 0.575);
+    padding: 5px;
+    height: 100vh;
+}
+.days {
+    display: flex;
+    justify-content: center;
+}
+.card {
+    width: 200px;
+    cursor: pointer;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 2px 2px 2px rgba(128, 128, 128, 0.349);
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+.widget {
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    color: white;
+    background: rgb(55,174,227);
+    background: linear-gradient(43deg, rgba(55,174,227,1) 17%, rgba(44,120,177,1) 66%);
+}
+.widget img {
+    width: 100px;
+}
+.widget h2 {
+    font-size: 30px;
+    text-align: left;
+}
