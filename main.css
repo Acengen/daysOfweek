@@ -29,8 +29,6 @@
     padding: 5px;
     margin: auto;
     color: white;
-    background: rgb(55,174,227);
-    background: linear-gradient(43deg, rgba(55,174,227,1) 17%, rgba(44,120,177,1) 66%);
 }
 .widget img {
     width: 100px;

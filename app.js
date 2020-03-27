@@ -89,6 +89,8 @@ for(let i = 0; i < weatherData.days.length; i++) {
     }
 
     cardDiv.addEventListener('click', ()=> {
+      widge.style.background = "rgb(55,174,227)";
+      widge.style.background = 'linear-gradient(43deg, rgba(55,174,227,1) 17%, rgba(44,120,177,1) 66%)';
         widge.innerHTML = `
             <h2 class="card-title">${weatherData.days[i].day}</h2>
             <img src="./img/${time}">
